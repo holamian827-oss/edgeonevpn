@@ -1,16 +1,5 @@
 {
-  "build": {
-    "command": "echo 'No build needed'"
-  },
-  "functions": {
-    "_worker.js": {
-      "entrypoint": "_worker.js"
-    }
-  },
-  "routes": [
-    {
-      "path": "/*",
-      "function": "_worker.js"
-    }
-  ]
+  "build": { "command": "echo 'No build needed'" },
+  "functions": { "_worker.js": { "entrypoint": "_worker.js" } },
+  "routes": [{ "path": "/*", "function": "_worker.js" }]
 }
